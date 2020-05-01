@@ -1,0 +1,201 @@
+BODY
+{
+    margin-top:5px;
+}    
+FORM
+{
+	margin-top:5px;
+}
+TABLE
+{
+	font-family	: monospace		;
+    border: 1px black solid;
+    border-collapse: collapse;
+    border-spacing: 0;
+/*
+	border-width: thin;
+	border-style: solid;
+    BORDER-COLLAPSE: collapse;
+    BORDER-COLOR: black;
+*/
+/*	border-width: normal;	*/
+/*	FONT-SIZE: 10pt;	*/
+/*
+    BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+    BORDER-LEFT: 1px solid;
+    BORDER-BOTTOM: 1px solid;
+*/
+    empty-cells: show;
+}
+TBODY
+{
+	/* orverflow: auto;	*/
+}
+TR
+{
+    HEIGHT: auto;
+}
+TH
+{
+	white-space: nowrap;
+	font-family	: monospace		;
+	font-weight: normal;
+    border: black solid;
+    border-width: 0 0 1px 1px;
+    BACKGROUND-COLOR: #ccffcc;
+/*	border-width: thin;	*/
+/*
+	border-width: 0 0 1px 1px;
+	border-style: solid;
+*/
+/*
+	border-width: thin;
+    BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+	FONT-SIZE: 10pt;
+    BORDER-LEFT: 1px solid;
+    BORDER-BOTTOM: 1px solid;
+*/
+}
+TD
+{
+	white-space: nowrap;
+	font-family	: monospace		;
+/*	border-width: thin;			*/
+    border: 1px black solid;
+    border-width: 0 0 1px 1px;
+/*	border-style: solid;
+/*	border-width: thin;			*/
+/*	FONT-SIZE: 10pt;	*/
+/*	BORDER: 1px solid black;	*/
+/*	BORDER-RIGHT: 1px solid;	*/
+/*	BORDER-TOP: 1px solid;		*/
+/*	BORDER-LEFT: 1px solid;		*/
+/*	BORDER-BOTTOM: 1px solid;	*/
+}
+.Number
+{
+	white-space: nowrap;
+	TEXT-ALIGN	: right;
+	font-family	: 'ÇlÇr ÉSÉVÉbÉN','ÇlÇr ÉSÉVÉbÉN',monospace;
+}
+#Date
+{
+/*	white-space	: pre			;	*/
+	font-family	: 'ÇlÇr ÉSÉVÉbÉN','ÇlÇr ÉSÉVÉbÉN',monospace;
+    	TEXT-ALIGN	: center		;
+}
+#Charactor
+{
+/*	white-space	: pre			;	*/
+	font-family	: 'ÇlÇr ÉSÉVÉbÉN','ÇlÇr ÉSÉVÉbÉN',monospace;
+}
+#Pre
+{
+	white-space	: pre			;
+	font-family	: 'ÇlÇr ÉSÉVÉbÉN','ÇlÇr ÉSÉVÉbÉN',monospace;
+}
+DIV#info
+{
+	white-space	: pre			;
+	font-family	: monospace		;
+	FONT-SIZE	: xx-small;
+	MARGIN-BOTTOM	: -20px;
+}
+DIV#log
+{
+	white-space	: pre			;
+}
+DIV#sql
+{
+    FONT-SIZE: 4pt;
+}
+.code
+{
+	white-space	: pre			;
+	font-family	: monospace		;
+	FONT-SIZE	: small			;
+   	TEXT-ALIGN	: left			;
+}
+.info
+{
+	white-space	: pre			;
+	font-family	: monospace		;
+	FONT-SIZE	: xx-small		;
+   	TEXT-ALIGN	: left			;
+}
+.info_new
+{
+	white-space	: pre			;
+	font-family	: monospace		;
+/*	FONT-SIZE	: xx_small		;	*/
+   	TEXT-ALIGN	: left			;
+	COLOR		: Blue			;
+}
+.note
+{
+	font-family	: monospace		;
+	FONT-SIZE	: xx-small		;
+   	TEXT-ALIGN	: left			;
+}
+
+.small
+{
+    CLEAR: both;
+    BORDER-RIGHT: 1px outset;
+    PADDING-RIGHT: 0px;
+    BORDER-TOP: 1px outset;
+    PADDING-LEFT: 0px;
+    FONT-SIZE: 8pt;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 0px;
+    BORDER-LEFT: 1px outset;
+    PADDING-TOP: 0px;
+    BORDER-BOTTOM: 1px outset;
+    TEXT-ALIGN: center
+}
+.input
+{
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-BOTTOM: black 1px solid;
+    BACKGROUND-COLOR: ivory
+}
+.rssbutton{
+	background-color: #ff6600;
+	border: 1px #ff6600 outset;
+	padding: 0 2px;
+	color: white;
+	text-decoration: none;
+	font: bold 10px Verdana;
+}
+
+.rssbutton:visited, .rssbutton:hover, .rssbutton:active{
+	color: white;
+}
+
+.cssbutton{
+	background-color: #d1ec4c;
+	border: 2px #d1ec4c outset;
+	padding: 1px 4px;
+	color: black;
+	text-decoration: none;
+	font: bold 90% "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+}
+
+.cssbutton:visited{
+	color: black;
+}
+
+.cssbutton:hover{
+	border-style: inset;
+	background-color: #e3f48e;
+	padding: 2px 3px 0 5px; /*shift text 1px to the right and down*/
+}
+
+.cssbutton:active{
+	color: black;
+}
+
